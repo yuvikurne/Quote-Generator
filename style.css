@@ -1,0 +1,165 @@
+*{
+    font-family: "Lato", serif;
+}
+.main-container {
+    width: 1440px;
+    height: 1000px;
+    border: 1px solid black;
+    margin-left: 350px;
+    
+
+}
+
+nav {
+    width: 1440px;
+    height: 83px;
+    background-color: #0C244A;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50%;
+}
+
+nav img {
+    width: 200.13px;
+    height: 24px;
+    padding-top: 30px;
+
+}
+
+nav button {
+    width: 156px;
+    height: 51px;
+    background-color: #F3BD00;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+.quotes-heading {
+    width: 1200px;
+    height: 817px;
+    /* background-color : red; */
+    margin-left: 120px
+}
+
+.quotes-heading h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.display-border {
+    box-shadow: 0px 8px 32px 0px #1C1C1E29;
+    width: 1200px;
+    height: 358px;
+    padding: 40px 0px 0px 0px;
+    border-radius: 40px;
+    opacity: 0px;
+    margin-bottom: 30px;
+
+}
+
+.display-output {
+    width: 1120px;
+    height: 278px;
+    margin-left: 29px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color:#F5F5F5;
+    padding: 10px 10px 28px 10px;
+    align-content: center;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 57.9px;
+    position: relative;
+
+}
+
+.display-output p{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+
+#generate {
+    width: 1200px;
+    height: 61px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    border-radius : 10px;
+    background-color: #F3BD00;
+    cursor: pointer;
+    border: 1px solid #2E2E2E'
+
+}
+
+.new-quote{
+    width: 1200px;
+    height: 106px;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.new-quote p{
+    margin-bottom: 5px;
+}
+
+#input{
+    height: 69px;
+    width: 1196px;
+    border-radius:8px;
+    font-size: 24px;
+    border: 1px solid #2E2E2E;
+}
+
+.author-sec{
+    width: 1200px;
+    height: 106px;
+    font-size: 24px;
+}
+
+.new-name p{
+    margin-bottom: 5px;
+}
+
+#author{
+    width: 584px;
+    height: 69px;
+    border-radius :8px;
+    font-size: 24px;
+    border: 1px solid #2E2E2E;
+    
+}
+
+#add-quote{
+    width: 584px;
+    height: 61px;
+    border-radius:8px;
+    border: 1px solid #2E2E2E;
+    background-color:#F3BD00;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    position: absolute;
+    left: 52%;
+    top: 88.8%;
+    cursor: pointer;
+}
+
+
+#generate:hover{
+    background-color: #e7cb65;
+}
+
+#add-quote:hover{
+    background-color: #e7cb65;
+}
+
